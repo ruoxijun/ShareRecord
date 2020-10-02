@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.share">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/appstore"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/appstore"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".main.addition.UserActivity"></activity>
+        <activity android:name=".main.addition.AttActivity" />
+        <activity android:name=".blog.AddBlogActivity" />
+        <activity android:name=".blog.BlogActivity" />
+        <activity android:name=".firstchoice.RegisterActivity" />
+        <activity android:name=".firstchoice.LogInActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".main.MainActivity" />
+    </application>
+
+</manifest>
